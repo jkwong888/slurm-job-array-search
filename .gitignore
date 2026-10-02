@@ -1,0 +1,14 @@
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+
+# Local datasets, checkpoints, results, and Slurm logs
+*.parquet
+*.pt
+*.log
+results/
+metrics.json
+best.json
+trials.jsonl

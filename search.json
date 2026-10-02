@@ -1,0 +1,13 @@
+{
+  "format_version": 1,
+  "seed": 42,
+  "epochs": 40,
+  "trials": [
+    {"learning_rate": 0.001, "batch_size": 128, "hidden_width": 16},
+    {"learning_rate": 0.001, "batch_size": 256, "hidden_width": 16},
+    {"learning_rate": 0.003, "batch_size": 128, "hidden_width": 16},
+    {"learning_rate": 0.003, "batch_size": 256, "hidden_width": 16},
+    {"learning_rate": 0.01, "batch_size": 128, "hidden_width": 16},
+    {"learning_rate": 0.01, "batch_size": 256, "hidden_width": 16}
+  ]
+}
